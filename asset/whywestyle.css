@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mirza:wght@600&family=Montserrat:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mirza:wght@600&family=Montserrat:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mirza:wght@600&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mirza:wght@600&family=Montserrat:ital,wght@0,600;1,600&family=Tajawal&display=swap');
+body{
+    background-color: #191919;
+}
+
+.logo-img {
+    display: inline-block; 
+}
+
+
+.logo-img img {
+    width: 60px; 
+    height: 60px; 
+    margin-left: 50px;
+}
+
+.header-txt{
+    padding-left: 65%;;
+    gap: 40px;
+    display: flex;
+    width: 100px;
+    height: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+   z-index: 2000;
+   opacity: 0.5;
+
+} 
+.header-txt h1 {
+    margin: 0;
+    padding: 10px; 
+    white-space: nowrap; 
+    color: white;
+    cursor: pointer;
+    font-size: 25px !important;
+    margin-left: -30px;
+
+}
+.header-txt h2:hover {
+    color: #f39c12; 
+    transform: scale(1.1); 
+}
+
+
+.wedding-img img{
+    width: 100%;
+    height: 500px;
+    padding: 05px;
+}
+
+.mission{
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    padding: 60px;
+   
+    
+}
+
+.mission-header h3{
+    font-size: 27px;
+    text-align: left;  
+    margin-top: 30px;
+}
+.mission-header h1{
+    padding-top: 50px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    color: #B58343;
+    font-size: 55px;
+    
+}
+.mission-img{
+    text-align: right;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+
+ 
+
+}
+.mission-img img{
+    width: 230px;
+    height: 230px !important;
+    gap: 20px;
+    
+    height: auto; 
+    margin-bottom: 5px; 
+}
+.mission-img2 img{
+  
+    width: 490px;
+    height: 220px;
+   
+}
+.vision-page {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.vision {
+    display: flex; 
+    color: white;
+    padding: 50px; 
+    box-sizing: border-box;
+}
+
+.vision-header, .vision-img {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.vision-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 20px; 
+    box-sizing: border-box; 
+    order: 2; 
+}
+
+.vision-img{
+    text-align: right;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+
+ 
+
+}
+.vision-img img{
+    width: 230px;
+    height: 230px !important;
+    gap: 20px;
+    
+    height: auto; 
+    margin-bottom: 5px; 
+}
+
+.vision-img2 img {
+    width: 490px;
+    height: 220px; 
+}
+
+.vision-header h1 {
+    font-size: 55px;
+    color: #B58343; 
+    padding-bottom: 20px; 
+    margin: 0; 
+}
+
+.vision-header h3 {
+    font-size: 27px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.img-event{
+  width: 450px;
+  height: 300px;
+  margin-top: 15px;
+  border-radius: 40px;
+}
+
+.nav-item:hover{
+  color: #f39c12 !important;
+}
+
+
+@media (max-width: 768px) {
+    .vision {
+        flex-direction: column; 
+    }
+
+    .vision-header, .vision-img {
+        flex: 1 100%; 
+    }
+}
+
